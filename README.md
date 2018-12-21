@@ -1,6 +1,6 @@
 # vueaxisoexample
 
-> A Vue.js project
+> This proj show steam body do not working in vue http-proxy.
 
 ## Build Setup
 

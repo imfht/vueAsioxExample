@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1 style="text-algin: center"> Welcome To Scan DashBoard.</h1>
+    <label> IP/IPrange: </label> <input v-model="ip"> 
     <button @click="steamIT">startScan</button>
     <pre> <div class="magin_5px"> {{ msg }} </div> </pre>
     <ul>
@@ -14,7 +15,8 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: ""
+      msg: "",
+      ip: "",
     }
   },
   mounted () {
@@ -24,7 +26,7 @@ export default {
     steamIT: function () {
       this.msg = ""
       var xhr = new XMLHttpRequest()
-      xhr.open('GET', '/tools/test')
+      xhr.open('GET', '/tools/test?ip='+this.ip)
       xhr.seenBytes = 0
       var that = this;
       xhr.onreadystatechange = function () {

@@ -3,7 +3,7 @@
 > This proj show how to launch a subprocess in django and display it in web browser with vue. The back-end code can be found at [https://github.com/imfht/djangoShell](https://github.com/imfht/djangoShell)
 
 ## Preview 
-![](https://ws1.sinaimg.cn/large/0062TDWsgy1fyhnq8kvloj32ua15qh7i.jpg)
+![](https://ws1.sinaimg.cn/large/0062TDWsgy1fyho7zzbvlj328m17o18r.jpg)
 
 ## Build Setup
 
